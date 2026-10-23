@@ -59,3 +59,11 @@ micromamba install -c conda-forge rasterio numpy matplotlib-base
   its real path is now `scripts/dem/compute_dod_batch.py`.
 - Harmless PDAL warnings about `libpdal_plugin_reader_hdf` / `icebridge` can
   appear; they don't affect LAS/LAZ/COPC.
+
+## See also
+
+Related tools for DEM and raster analysis:
+
+- [dempp](https://github.com/RSE-UZH/dempp): additional DEM processing utilities.
+- [xdem](https://github.com/GlacioHack/xdem): DEM analysis, co-registration and uncertainty.
+- [geoutils](https://github.com/GlacioHack/geoutils): raster and vector handling.
